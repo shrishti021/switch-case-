@@ -1,0 +1,21 @@
+#include <iostream>  
+using namespace std;
+int main() {
+	int choice;
+	cout << "Enter 1, 2 or 3: ";
+	cin >> choice;
+	switch (choice)
+	{
+	case 1: 
+		cout << "Choice 1 : I want to buy a top ";
+		break;
+	case 2: 
+		cout << "Choice 2 : I want to buy a jeans "; 
+		break;
+	case 3: 
+		cout << "Choice 3 : I want to buy a skirt "; 
+		break;
+	default: 
+		cout << "Not 1, 2 or 3"; break;
+	}
+}
